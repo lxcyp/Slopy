@@ -1,0 +1,4 @@
+[config]
+image_dir = /home/user/.slopymf/img/
+image_format = .png
+date_format = %%d-%%m-%%Y_%%H%%M%%S
