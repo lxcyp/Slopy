@@ -3,7 +3,8 @@ A simple Python 3 command-line screenshot tool, supporting various image hosts. 
  
 ##List of supported hosts
 * pomf.se
-* More on the way!
+* teknik.io
+* more on the way!
 
 ##Requirements
 * python-requests (python3)
@@ -30,3 +31,6 @@ Place Slopy in the same directory as slopy.cfg. Slopy will output the file url t
 
     python3 slopy | xclip -selection c
 to upload your screenshot and output the URL to your clipboard.
+
+##Switching uploaders
+Slopy supports uploading to various image hosts by changing the image_host value in slopy.cfg. This value should be the same as one [header] in hosts.cfg. This is hacky and will likely be replaced.
